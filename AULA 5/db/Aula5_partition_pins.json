@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "PC_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PALAVRA_CONTROLE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PALAVRA_CONTROLE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PALAVRA_CONTROLE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PALAVRA_CONTROLE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PALAVRA_CONTROLE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PALAVRA_CONTROLE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PALAVRA_CONTROLE[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PALAVRA_CONTROLE[8]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
