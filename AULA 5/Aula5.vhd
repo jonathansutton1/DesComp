@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity Aula5 is
   -- Total de bits das entradas e saidas
   generic ( larguraDados : natural := 8;
-        larguraEnderecos : natural := 3;
+        larguraEnderecos : natural := 9;
         simulacao : boolean := TRUE -- para gravar na placa, altere de TRUE para FALSE
   );
   port   (
@@ -13,7 +13,7 @@ entity Aula5 is
     SW: in std_logic_vector(9 downto 0);
    PC_OUT: out std_logic_vector(8 downto 0);
     LEDR  : out std_logic_vector(9 downto 0);
-	 PALAVRA_CONTROLE : out std_logic_vector(8 downto 0)
+	 PALAVRA_CONTROLE : out std_logic_vector(11 downto 0)
   );
 end entity;
 
@@ -26,7 +26,7 @@ architecture arquitetura of Aula5 is
   signal MUX_REG1 : std_logic_vector (larguraDados-1 downto 0);
   signal REG1_ULA_A : std_logic_vector (larguraDados-1 downto 0);
   signal Saida_ULA : std_logic_vector (larguraDados-1 downto 0);
-  signal Sinais_Controle : std_logic_vector (8 downto 0);   --mudou
+  signal Sinais_Controle : std_logic_vector (11 downto 0);   --mudou
   signal Endereco : std_logic_vector (8 downto 0);
   signal proxPC : std_logic_vector (8 downto 0);
   signal Chave_Operacao_ULA : std_logic;
@@ -36,7 +36,9 @@ architecture arquitetura of Aula5 is
   signal muxPC: std_logic_vector(8 downto 0);
   signal flagSaidaULA: std_logic;
   signal saidaFlipFlop: std_logic;
-  signal saidaLogDesvio: std_logic;
+  signal saidaLogDesvio: std_logic_vector (1 downto 0);
+   signal saidaRetorno: std_logic_vector (8 downto 0);
+
   
   --sinais de controle, em ordem
 	  signal habEscritaMEM: std_logic;
@@ -46,7 +48,10 @@ architecture arquitetura of Aula5 is
 	  signal Habilita_A : std_logic;
 	  signal SelMUX : std_logic;
 	  signal JEQ: std_logic;
+	  signal JSR: std_logic;
+	  signal RET: std_logic;
 	  signal JMP: std_logic;
+	  signal habEscritaRetorno: std_logic;
 
 begin
 
@@ -66,10 +71,22 @@ MUX1 :  entity work.muxGenerico2x1  generic map (larguraDados => larguraDados)
                  entradaB_MUX =>  decoderMemoria(7 downto 0),
                  seletor_MUX => SelMUX,
                  saida_MUX => MUX_REG1);
+					  
+MUX2 :  entity work.muxGenerico4x1  generic map (larguraDados => 9)
+        port map( entradaA_MUX => proxPC,
+                 entradaB_MUX =>  decoderMemoria(8 downto 0),
+					  entradaC_MUX => saidaRetorno,
+					  entradaD_MUX => "000000000",
+                 seletor_MUX => saidaLogDesvio,
+                 saida_MUX => muxPC);
 
 -- O port map completo do Acumulador.
 REGA : entity work.registradorGenerico   generic map (larguraDados => 8)
           port map (DIN => Saida_ULA, DOUT => REG1_ULA_A, ENABLE => Habilita_A, CLK => CLK, RST => Reset_A);
+
+
+ENDRET : entity work.registradorGenerico   generic map (larguraDados => 9)
+          port map (DIN => proxPC, DOUT => saidaRetorno, ENABLE => habEscritaRetorno, CLK => CLK, RST => '0');
 
 -- O port map completo do Program Counter.
 PC : entity work.registradorGenerico   generic map (larguraDados => 9)
@@ -93,20 +110,17 @@ DECODER : entity work.decoderInstru
 RAM : entity work.memoriaRAM generic map (dataWidth => 8, addrWidth => 8)
 			port map(addr => decoderMemoria(7 downto 0), we => Sinais_Controle(0), re => Sinais_Controle(1),
 							habilita => decoderMemoria(8), clk => clk, dado_in => REG1_ULA_A, dado_out => chavesY_MUX_A);
-							
-MUX2 :  entity work.muxGenerico2x1  generic map (larguraDados => 9)
-        port map( entradaA_MUX => proxPC,
-                 entradaB_MUX =>  decoderMemoria(8 downto 0),
-                 seletor_MUX => saidaLogDesvio,
-                 saida_MUX => muxPC);
 					  
 flipFlop : entity work.flipFlop 
 			port map(DIN => flagSaidaULA, DOUT => saidaFlipFlop,ENABLE => habilitaFlag, CLK => CLK, RST => '0');
 			
 logicaDesvio : entity work.logicaDesvio
-			port map(JMP => JMP, JEQ => JEQ, flagEqual => saidaFlipFlop,saida => saidaLogDesvio);
+			port map(JEQ => JEQ, JSR => JSR, RET => RET, JMP => JMP, flagEqual => saidaFlipFlop,saida => saidaLogDesvio);
 
-JMP <= Sinais_Controle(8);			
+habEscritaRetorno <= Sinais_Controle(11);			
+JMP <= Sinais_Controle(10);			
+RET <= Sinais_Controle(9);
+JSR <= Sinais_Controle(8);			
 JEQ <= Sinais_Controle(7);	
 selMUX <= Sinais_Controle(6);
 Habilita_A <= Sinais_Controle(5);
@@ -115,8 +129,8 @@ habilitaFlag <= Sinais_Controle(2);
 habLeituraMEM <= Sinais_Controle (1);
 habEscritaMEM <= Sinais_Controle(0);
 
-PALAVRA_CONTROLE <= Sinais_Controle;
 
+PALAVRA_CONTROLE <= Sinais_Controle;
 PC_OUT <= Endereco;
 
 end architecture;

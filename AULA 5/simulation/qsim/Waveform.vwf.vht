@@ -19,7 +19,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "03/15/2023 23:38:29"
+-- Generated on "03/16/2023 22:07:30"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          Aula5
 -- 
@@ -37,7 +37,7 @@ ARCHITECTURE Aula5_arch OF Aula5_vhd_vec_tst IS
 SIGNAL CLOCK_50 : STD_LOGIC;
 SIGNAL KEY : STD_LOGIC_VECTOR(3 DOWNTO 0);
 SIGNAL LEDR : STD_LOGIC_VECTOR(9 DOWNTO 0);
-SIGNAL PALAVRA_CONTROLE : STD_LOGIC_VECTOR(8 DOWNTO 0);
+SIGNAL PALAVRA_CONTROLE : STD_LOGIC_VECTOR(11 DOWNTO 0);
 SIGNAL PC_OUT : STD_LOGIC_VECTOR(8 DOWNTO 0);
 SIGNAL SW : STD_LOGIC_VECTOR(9 DOWNTO 0);
 COMPONENT Aula5
@@ -45,7 +45,7 @@ COMPONENT Aula5
 	CLOCK_50 : IN STD_LOGIC;
 	KEY : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
 	LEDR : OUT STD_LOGIC_VECTOR(9 DOWNTO 0);
-	PALAVRA_CONTROLE : OUT STD_LOGIC_VECTOR(8 DOWNTO 0);
+	PALAVRA_CONTROLE : OUT STD_LOGIC_VECTOR(11 DOWNTO 0);
 	PC_OUT : OUT STD_LOGIC_VECTOR(8 DOWNTO 0);
 	SW : IN STD_LOGIC_VECTOR(9 DOWNTO 0)
 	);

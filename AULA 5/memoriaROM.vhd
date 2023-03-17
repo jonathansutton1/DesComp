@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 entity memoriaROM is
    generic (
           dataWidth: natural := 4;
-          addrWidth: natural := 3
+          addrWidth: natural := 9
     );
    port (
           Endereco : in std_logic_vector (addrWidth-1 DOWNTO 0);
@@ -24,6 +24,8 @@ architecture assincrona of memoriaROM is
   constant JMP  : std_logic_vector(3 downto 0) := "0110";
   constant JEQ  : std_logic_vector(3 downto 0) := "0111";
   constant CEQ  : std_logic_vector(3 downto 0) := "1000";
+  constant JSR  : std_logic_vector(3 downto 0) := "1001";
+  constant RET  : std_logic_vector(3 downto 0) := "1010";
 
   type blocoMemoria is array(0 TO 2**addrWidth - 1) of std_logic_vector(dataWidth-1 DOWNTO 0);
 
@@ -32,19 +34,22 @@ architecture assincrona of memoriaROM is
   begin
       -- Palavra de Controle = SelMUX, Habilita_A, Reset_A, Operacao_ULA
       -- Inicializa os endereços:
-        tmp(0)  := JMP  & "000000100";   --jmp4 
-        tmp(1)  := JEQ  & "000001001";   --jeq9
-        tmp(2)  := NOP  & "000000000";   --nop
-        tmp(3)  := NOP  & "000000000";   --nop
-        tmp(4)  := LDI  & "000000101";  -- ldi5
-		  tmp(5)  := STA  & "100000000";  -- sta256
-		  tmp(6)  := CEQ  & "100000000";  --ceq256
-		  tmp(7)  := JMP  & "000000001";  --jmp1
-		  tmp(8)  := NOP  & "000000000";  --nop
-		  tmp(9)  := LDI  & "000000100";  --LDI4
-		  tmp(10) := CEQ  & "100000000";  --ceq 256
-		  tmp(11) := JEQ  & "000000011";  --JEQ 3
-		  tmp(12) := JMP  & "000001100";  --jmp 12
+        tmp(0)  := JSR  & "000001110";   --JSR14 
+        tmp(1)  := JMP  & "000000101";   --JMP5
+        tmp(2)  := JEQ  & "000001001";   --JEQ9
+        tmp(3)  := NOP  & "000000000";   --NOP
+        tmp(4)  := NOP  & "000000000";  -- NOP
+		  tmp(5)  := LDI  & "000000101";  -- LDI5
+		  tmp(6)  := STA  & "100000000";  --STA256
+		  tmp(7)  := CEQ  & "100000000";  --CEQ256
+		  tmp(8)  := JMP  & "000000010";  --JMP2
+		  tmp(9)  := NOP  & "000000000";  --NOP
+		  tmp(10) := LDI  & "000000100";  --LDI4
+		  tmp(11) := CEQ  & "100000000";  --CEQ256
+		  tmp(12) := JEQ  & "000000011";  --JEQ 3
+		  tmp(13) := JMP  & "000001101";  --JMP 13
+		  tmp(14) := NOP  & "000000000";  --NOP
+		  tmp(15) := RET  & "000000000";  --RET
         return tmp;
     end initMemory;
 
