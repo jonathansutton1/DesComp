@@ -67,6 +67,14 @@ architecture arquitetura of Aula8 is
 	signal Hab_TS_KEY3 : std_logic;
 	signal Hab_TS_RESET : std_logic;
 
+	
+	-------- config debounce/keys
+	signal saidaEdge0: std_logic;
+	signal saidaEdge1: std_logic;
+	signal saida_FFKEY0: std_logic;
+	signal saida_FFKEY1: std_logic;
+	signal saidaLimpaKEY0: std_logic;
+	signal saidaLimpaKEY1: std_logic; 
 
 
 begin
@@ -188,10 +196,10 @@ TS_SW9 :  entity work.buffer_3_state_8portas
         port map(entrada => "0000000" & SW(9), habilita =>  Hab_TS_SW9, saida => Saida_RAM); 
 		 
 TS_KEY0 :  entity work.buffer_3_state_8portas
-        port map(entrada => "0000000" & KEY(0), habilita =>  Hab_TS_KEY0, saida => Saida_RAM); 
+        port map(entrada => "0000000" & saida_FFKEY0, habilita =>  Hab_TS_KEY0, saida => Saida_RAM); 
 		 
 TS_KEY1 :  entity work.buffer_3_state_8portas
-        port map(entrada => "0000000" & KEY(1), habilita =>  Hab_TS_KEY1, saida => Saida_RAM); 
+        port map(entrada => "0000000" & saida_FFKEY1, habilita =>  Hab_TS_KEY1, saida => Saida_RAM); 
 		 
 TS_KEY2 :  entity work.buffer_3_state_8portas
         port map(entrada => "0000000" & KEY(2), habilita =>  Hab_TS_KEY2, saida => Saida_RAM); 
@@ -202,7 +210,27 @@ TS_KEY3 :  entity work.buffer_3_state_8portas
 TS_RESET :  entity work.buffer_3_state_8portas
         port map(entrada => "0000000" & FPGA_RESET_N, habilita =>  Hab_TS_RESET, saida => Saida_RAM); 
 		 
-
+FFKEY0 : entity work.flipFlop 
+			port map(DIN => '1' , DOUT => saida_FFKEY0,ENABLE => '1' , CLK => saidaEdge0, RST => saidaLimpaKEY0);
+			
+FFKEY1 : entity work.flipFlop 
+			port map(DIN => '1' , DOUT => saida_FFKEY1,ENABLE => '1' , CLK => saidaEdge1, RST => saidaLimpaKEY1);
+			
+detectorSub0: work.edgeDetector(bordaSubida) 
+	port map (clk => CLOCK_50, entrada => (not KEY(0)), saida => saidaEdge0);
+	
+detectorSub1: work.edgeDetector(bordaSubida) 
+	port map (clk => CLOCK_50, entrada => (not KEY(1)), saida => saidaEdge1);
+	
+-------------------------------------------
+	
+saidaLimpaKEY0 <= WR and dataAdress(8) and dataAdress(7) and dataAdress(6) and 
+						dataAdress(5) and dataAdress(4) and dataAdress(3) and dataAdress(2) 
+						and dataAdress(1) and dataAdress(0);
+						
+saidaLimpaKEY1 <= WR and dataAdress(8) and dataAdress(7) and dataAdress(6) and 
+						dataAdress(5) and dataAdress(4) and dataAdress(3) and dataAdress(2) 
+						and dataAdress(1) and not(dataAdress(0));
 
 HabFF1 <= WR and Saida_decoder1(4) and Saida_decoder2(2) and dataAdress(5);
 HabFF2 <= WR and Saida_decoder1(4) and Saida_decoder2(1) and dataAdress(5);
