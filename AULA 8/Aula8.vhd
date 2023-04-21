@@ -12,6 +12,7 @@ entity Aula8 is
     KEY: in std_logic_vector(3 downto 0);
     SW: in std_logic_vector(9 downto 0);
     LEDR  : out std_logic_vector(9 downto 0);
+	 FPGA_RESET_N: in std_logic;
 	 HEX0, HEX1, HEX2, HEX3, HEX4, HEX5 : out std_logic_vector(6 downto 0)
   );
 end entity;
@@ -36,7 +37,7 @@ architecture arquitetura of Aula8 is
 	signal Saida_REG8 : std_logic_vector(7 downto 0);
 	signal HabREG8 : std_logic;
 	
-	------
+	------ config displays
 	signal HabREG4_0 : std_logic;
 	signal HabREG4_1 : std_logic;
 	signal HabREG4_2 : std_logic;
@@ -55,6 +56,17 @@ architecture arquitetura of Aula8 is
 	signal Saida_display3 : std_logic_vector(6 downto 0);
 	signal Saida_display4 : std_logic_vector(6 downto 0);
 	signal Saida_display5 : std_logic_vector(6 downto 0);
+	
+	------ config leds e chaves
+	signal Hab_TS_SW0_7 : std_logic;
+	signal Hab_TS_SW8 : std_logic;
+	signal Hab_TS_SW9 : std_logic;
+	signal Hab_TS_KEY0 : std_logic;
+	signal Hab_TS_KEY1 : std_logic;
+	signal Hab_TS_KEY2 : std_logic;
+	signal Hab_TS_KEY3 : std_logic;
+	signal Hab_TS_RESET : std_logic;
+
 
 
 begin
@@ -63,7 +75,8 @@ begin
 
 -- Para simular, fica mais simples tirar o edgeDetector
 gravar:  if simulacao generate
-CLK <= KEY(0);
+CLK <= CLOCK_50;
+
 else generate
 detectorSub0: work.edgeDetector(bordaSubida)
         port map (clk => CLOCK_50, entrada => (not KEY(0)), saida => CLK);
@@ -163,7 +176,33 @@ DISPLAY5 :  entity work.conversorHex7Seg
                  negativo => '0',
                  overFlow =>  '0',
                  saida7seg => Saida_display5);
-			 
+					  
+TS_SW0_7 :  entity work.buffer_3_state_8portas
+        port map(entrada => SW(7 downto 0), habilita =>  Hab_TS_SW0_7, saida => Saida_RAM); 
+		  
+
+TS_SW8 :  entity work.buffer_3_state_8portas
+        port map(entrada => "0000000" & SW(8), habilita =>  Hab_TS_SW8, saida => Saida_RAM); 
+	
+TS_SW9 :  entity work.buffer_3_state_8portas
+        port map(entrada => "0000000" & SW(9), habilita =>  Hab_TS_SW9, saida => Saida_RAM); 
+		 
+TS_KEY0 :  entity work.buffer_3_state_8portas
+        port map(entrada => "0000000" & KEY(0), habilita =>  Hab_TS_KEY0, saida => Saida_RAM); 
+		 
+TS_KEY1 :  entity work.buffer_3_state_8portas
+        port map(entrada => "0000000" & KEY(1), habilita =>  Hab_TS_KEY1, saida => Saida_RAM); 
+		 
+TS_KEY2 :  entity work.buffer_3_state_8portas
+        port map(entrada => "0000000" & KEY(2), habilita =>  Hab_TS_KEY2, saida => Saida_RAM); 
+		 
+TS_KEY3 :  entity work.buffer_3_state_8portas
+        port map(entrada => "0000000" & KEY(3), habilita =>  Hab_TS_KEY3, saida => Saida_RAM); 
+		 
+TS_RESET :  entity work.buffer_3_state_8portas
+        port map(entrada => "0000000" & FPGA_RESET_N, habilita =>  Hab_TS_RESET, saida => Saida_RAM); 
+		 
+
 
 HabFF1 <= WR and Saida_decoder1(4) and Saida_decoder2(2) and dataAdress(5);
 HabFF2 <= WR and Saida_decoder1(4) and Saida_decoder2(1) and dataAdress(5);
@@ -175,6 +214,15 @@ HabREG4_2 <= WR and Saida_decoder1(4) and Saida_decoder2(2) and  dataAdress(5);
 HabREG4_3 <= WR and Saida_decoder1(4) and Saida_decoder2(3) and  dataAdress(5);
 HabREG4_4 <= WR and Saida_decoder1(4) and Saida_decoder2(4) and  dataAdress(5);
 HabREG4_5 <= WR and Saida_decoder1(4) and Saida_decoder2(5) and dataAdress(5);
+
+Hab_TS_SW0_7 <= RD and (not dataAdress(5)) and Saida_decoder2(0) and Saida_decoder1(5);
+Hab_TS_SW8 <= RD and (not dataAdress(5)) and Saida_decoder2(1) and Saida_decoder1(5);
+Hab_TS_SW9 <= RD and (not dataAdress(5)) and Saida_decoder2(2) and Saida_decoder1(5);
+Hab_TS_KEY0 <= RD and dataAdress(5) and Saida_decoder2(0) and Saida_decoder1(5);
+Hab_TS_KEY1 <= RD and dataAdress(5) and Saida_decoder2(1) and Saida_decoder1(5);
+Hab_TS_KEY2 <= RD and dataAdress(5) and Saida_decoder2(2) and Saida_decoder1(5);
+Hab_TS_KEY3 <= RD and dataAdress(5) and Saida_decoder2(3) and Saida_decoder1(5);
+Hab_TS_RESET <= RD and dataAdress(5) and Saida_decoder2(4) and Saida_decoder1(5);
 
 HEX0 <= Saida_display0;
 HEX1 <= Saida_display1;
