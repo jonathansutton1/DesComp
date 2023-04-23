@@ -1,0 +1,220 @@
+Reset:
+STA @510
+STA @511
+STA @509
+LDI $0
+STA @0
+STA @258
+STA @257
+STA @256
+STA @288
+STA @289
+STA @290
+STA @291
+STA @292
+STA @293
+STA @63
+STA @62
+STA @61
+STA @60
+STA @59
+STA @58
+STA @2
+STA @3
+STA @4
+STA @5
+STA @6
+STA @7
+LDI $1
+STA @1
+LDI $10
+STA @10
+Inicio:
+LDA @353
+CEQ @0
+JEQ @Inicio
+JSR @Limite
+LDA @0
+STA @288
+STA @289
+STA @290
+STA @291
+STA @292
+STA @293
+STA @510
+Contador:
+NOP
+LDA @352
+CEQ @0
+JEQ @LOOP
+JSR @Incrementa
+NOP
+LDA @2
+STA @288
+LDA @3
+STA @289
+LDA @4
+STA @290
+LDA @5
+STA @291
+LDA @6
+STA @292
+LDA @7
+STA @293
+JSR @Comparador
+LOOP:
+JMP @Contador
+Limite:
+STA @510
+Unidade:
+LDA @320
+STA @288
+LDA @353
+CEQ @0
+JEQ @Unidade
+STA @510
+LDA @320
+STA @63
+Dezena:
+LDA @320
+STA @289
+LDA @353
+CEQ @0
+JEQ @Dezena
+STA @510
+LDA @320
+STA @62
+Centena:
+LDA @320
+STA @290
+LDA @353
+CEQ @0
+JEQ @Centena
+STA @510
+LDA @320
+STA @61
+Milhar:
+LDA @320
+STA @291
+LDA @353
+CEQ @0
+JEQ @Milhar
+STA @510
+LDA @320
+STA @60
+DezMilhar:
+LDA @320
+STA @292
+LDA @353
+CEQ @0
+JEQ @DezMilhar
+STA @510
+LDA @320
+STA @59
+CenMilhar:
+LDA @320
+STA @293
+LDA @353
+CEQ @0
+JEQ @CenMilhar
+STA @510
+LDA @320
+STA @58
+RET
+Incrementa:
+STA @511
+LDA @2
+SOMA @1
+CEQ @10
+JEQ @Dez
+STA @2
+RET
+Dez:
+LDA @0
+STA @2
+LDA @3
+SOMA @1
+CEQ @10
+JEQ @Cen
+STA @3
+RET
+Cen:
+LDA @0
+STA @3
+LDA @4
+SOMA @1
+CEQ @10
+JEQ @Mil
+STA @4
+RET
+Mil:
+LDA @0
+STA @4
+LDA @5
+SOMA @1
+CEQ @10
+JEQ @DezM
+STA @5
+RET
+DezM:
+LDA @0
+STA @5
+LDA @6
+SOMA @1
+CEQ @10
+JEQ @CenM
+STA @6
+RET
+CenM:
+LDA @0
+STA @6
+LDA @7
+SOMA @1
+CEQ @10
+JEQ @Fim
+STA @7
+RET
+Fim:
+LDA @0
+STA @7
+RET
+Comparador:
+LDA @63
+CEQ @2
+JEQ @CompDez
+RET
+CompDez:
+LDA @62
+CEQ @3
+JEQ @CompCen
+RET
+CompCen:
+LDA @61
+CEQ @4
+JEQ @CompMil
+RET
+CompMil:
+LDA @60
+CEQ @5
+JEQ @CompDezM
+RET
+CompDezM:
+LDA @59
+CEQ @6
+JEQ @CompCenM
+RET
+CompCenM:
+LDA @58
+CEQ @7
+JEQ @Acabou
+RET
+Acabou:
+LDI @1
+STA @258
+STA @257
+LDI $255
+STA @256
+LDA @356
+CEQ @0
+JEQ @Acabou
+JMP @Reset
