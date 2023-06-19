@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "S_ULA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[16]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[17]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[18]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[19]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[20]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[21]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[22]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[23]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[24]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[25]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[26]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[27]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[28]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[29]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[30]",
+					"strict" : false
+				},
+				{
+					"name" : "S_ULA[31]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

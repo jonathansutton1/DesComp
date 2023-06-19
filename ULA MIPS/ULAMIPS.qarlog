@@ -1,0 +1,20 @@
+Quartus Prime Archive log --	C:/Descomp/ULA MIPS/ULAMIPS.qarlog
+
+Archive:	C:/Descomp/ULA MIPS/ULAMIPS.qar
+Date:		Thu May 25 15:30:57 2023
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Descomp/ULA MIPS/ULA1bit.vhd
+C:/Descomp/ULA MIPS/ULA31bit.vhd
+C:/Descomp/ULA MIPS/ULAMIPS.qpf
+C:/Descomp/ULA MIPS/ULAMIPS.qsf
+C:/Descomp/ULA MIPS/ULAMIPS.vhd
+C:/Descomp/ULA MIPS/mux2x1bit.vhd
+C:/Descomp/ULA MIPS/mux4x1bit.vhd
+C:/Descomp/ULA MIPS/somadorULA.vhd
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 9 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

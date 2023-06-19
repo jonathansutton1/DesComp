@@ -1,0 +1,1703 @@
+|ULAMIPS
+a[0] => ula1bit:BIT0.a
+a[1] => ula1bit:BIT1.a
+a[2] => ula1bit:BIT2.a
+a[3] => ula1bit:BIT3.a
+a[4] => ula1bit:BIT4.a
+a[5] => ula1bit:BIT5.a
+a[6] => ula1bit:BIT6.a
+a[7] => ula1bit:BIT7.a
+a[8] => ula1bit:BIT8.a
+a[9] => ula1bit:BIT9.a
+a[10] => ula1bit:BIT10.a
+a[11] => ula1bit:BIT11.a
+a[12] => ula1bit:BIT12.a
+a[13] => ula1bit:BIT13.a
+a[14] => ula1bit:BIT14.a
+a[15] => ula1bit:BIT15.a
+a[16] => ula1bit:BIT16.a
+a[17] => ula1bit:BIT17.a
+a[18] => ula1bit:BIT18.a
+a[19] => ula1bit:BIT19.a
+a[20] => ula1bit:BIT20.a
+a[21] => ula1bit:BIT21.a
+a[22] => ula1bit:BIT22.a
+a[23] => ula1bit:BIT23.a
+a[24] => ula1bit:BIT24.a
+a[25] => ula1bit:BIT25.a
+a[26] => ula1bit:BIT26.a
+a[27] => ula1bit:BIT27.a
+a[28] => ula1bit:BIT28.a
+a[29] => ula1bit:BIT29.a
+a[30] => ula1bit:BIT30.a
+a[31] => ula31bit:BIT31.a
+b[0] => ula1bit:BIT0.b
+b[1] => ula1bit:BIT1.b
+b[2] => ula1bit:BIT2.b
+b[3] => ula1bit:BIT3.b
+b[4] => ula1bit:BIT4.b
+b[5] => ula1bit:BIT5.b
+b[6] => ula1bit:BIT6.b
+b[7] => ula1bit:BIT7.b
+b[8] => ula1bit:BIT8.b
+b[9] => ula1bit:BIT9.b
+b[10] => ula1bit:BIT10.b
+b[11] => ula1bit:BIT11.b
+b[12] => ula1bit:BIT12.b
+b[13] => ula1bit:BIT13.b
+b[14] => ula1bit:BIT14.b
+b[15] => ula1bit:BIT15.b
+b[16] => ula1bit:BIT16.b
+b[17] => ula1bit:BIT17.b
+b[18] => ula1bit:BIT18.b
+b[19] => ula1bit:BIT19.b
+b[20] => ula1bit:BIT20.b
+b[21] => ula1bit:BIT21.b
+b[22] => ula1bit:BIT22.b
+b[23] => ula1bit:BIT23.b
+b[24] => ula1bit:BIT24.b
+b[25] => ula1bit:BIT25.b
+b[26] => ula1bit:BIT26.b
+b[27] => ula1bit:BIT27.b
+b[28] => ula1bit:BIT28.b
+b[29] => ula1bit:BIT29.b
+b[30] => ula1bit:BIT30.b
+b[31] => ula31bit:BIT31.b
+inverteB => ula1bit:BIT0.inverteB
+inverteB => ula1bit:BIT0.carry_in
+inverteB => ula1bit:BIT1.inverteB
+inverteB => ula1bit:BIT2.inverteB
+inverteB => ula1bit:BIT3.inverteB
+inverteB => ula1bit:BIT4.inverteB
+inverteB => ula1bit:BIT5.inverteB
+inverteB => ula1bit:BIT6.inverteB
+inverteB => ula1bit:BIT7.inverteB
+inverteB => ula1bit:BIT8.inverteB
+inverteB => ula1bit:BIT9.inverteB
+inverteB => ula1bit:BIT10.inverteB
+inverteB => ula1bit:BIT11.inverteB
+inverteB => ula1bit:BIT12.inverteB
+inverteB => ula1bit:BIT13.inverteB
+inverteB => ula1bit:BIT14.inverteB
+inverteB => ula1bit:BIT15.inverteB
+inverteB => ula1bit:BIT16.inverteB
+inverteB => ula1bit:BIT17.inverteB
+inverteB => ula1bit:BIT18.inverteB
+inverteB => ula1bit:BIT19.inverteB
+inverteB => ula1bit:BIT20.inverteB
+inverteB => ula1bit:BIT21.inverteB
+inverteB => ula1bit:BIT22.inverteB
+inverteB => ula1bit:BIT23.inverteB
+inverteB => ula1bit:BIT24.inverteB
+inverteB => ula1bit:BIT25.inverteB
+inverteB => ula1bit:BIT26.inverteB
+inverteB => ula1bit:BIT27.inverteB
+inverteB => ula1bit:BIT28.inverteB
+inverteB => ula1bit:BIT29.inverteB
+inverteB => ula1bit:BIT30.inverteB
+inverteB => ula31bit:BIT31.inverteB
+selecao[0] => ula1bit:BIT0.selecao[0]
+selecao[0] => ula1bit:BIT1.selecao[0]
+selecao[0] => ula1bit:BIT2.selecao[0]
+selecao[0] => ula1bit:BIT3.selecao[0]
+selecao[0] => ula1bit:BIT4.selecao[0]
+selecao[0] => ula1bit:BIT5.selecao[0]
+selecao[0] => ula1bit:BIT6.selecao[0]
+selecao[0] => ula1bit:BIT7.selecao[0]
+selecao[0] => ula1bit:BIT8.selecao[0]
+selecao[0] => ula1bit:BIT9.selecao[0]
+selecao[0] => ula1bit:BIT10.selecao[0]
+selecao[0] => ula1bit:BIT11.selecao[0]
+selecao[0] => ula1bit:BIT12.selecao[0]
+selecao[0] => ula1bit:BIT13.selecao[0]
+selecao[0] => ula1bit:BIT14.selecao[0]
+selecao[0] => ula1bit:BIT15.selecao[0]
+selecao[0] => ula1bit:BIT16.selecao[0]
+selecao[0] => ula1bit:BIT17.selecao[0]
+selecao[0] => ula1bit:BIT18.selecao[0]
+selecao[0] => ula1bit:BIT19.selecao[0]
+selecao[0] => ula1bit:BIT20.selecao[0]
+selecao[0] => ula1bit:BIT21.selecao[0]
+selecao[0] => ula1bit:BIT22.selecao[0]
+selecao[0] => ula1bit:BIT23.selecao[0]
+selecao[0] => ula1bit:BIT24.selecao[0]
+selecao[0] => ula1bit:BIT25.selecao[0]
+selecao[0] => ula1bit:BIT26.selecao[0]
+selecao[0] => ula1bit:BIT27.selecao[0]
+selecao[0] => ula1bit:BIT28.selecao[0]
+selecao[0] => ula1bit:BIT29.selecao[0]
+selecao[0] => ula1bit:BIT30.selecao[0]
+selecao[0] => ula31bit:BIT31.selecao[0]
+selecao[1] => ula1bit:BIT0.selecao[1]
+selecao[1] => ula1bit:BIT1.selecao[1]
+selecao[1] => ula1bit:BIT2.selecao[1]
+selecao[1] => ula1bit:BIT3.selecao[1]
+selecao[1] => ula1bit:BIT4.selecao[1]
+selecao[1] => ula1bit:BIT5.selecao[1]
+selecao[1] => ula1bit:BIT6.selecao[1]
+selecao[1] => ula1bit:BIT7.selecao[1]
+selecao[1] => ula1bit:BIT8.selecao[1]
+selecao[1] => ula1bit:BIT9.selecao[1]
+selecao[1] => ula1bit:BIT10.selecao[1]
+selecao[1] => ula1bit:BIT11.selecao[1]
+selecao[1] => ula1bit:BIT12.selecao[1]
+selecao[1] => ula1bit:BIT13.selecao[1]
+selecao[1] => ula1bit:BIT14.selecao[1]
+selecao[1] => ula1bit:BIT15.selecao[1]
+selecao[1] => ula1bit:BIT16.selecao[1]
+selecao[1] => ula1bit:BIT17.selecao[1]
+selecao[1] => ula1bit:BIT18.selecao[1]
+selecao[1] => ula1bit:BIT19.selecao[1]
+selecao[1] => ula1bit:BIT20.selecao[1]
+selecao[1] => ula1bit:BIT21.selecao[1]
+selecao[1] => ula1bit:BIT22.selecao[1]
+selecao[1] => ula1bit:BIT23.selecao[1]
+selecao[1] => ula1bit:BIT24.selecao[1]
+selecao[1] => ula1bit:BIT25.selecao[1]
+selecao[1] => ula1bit:BIT26.selecao[1]
+selecao[1] => ula1bit:BIT27.selecao[1]
+selecao[1] => ula1bit:BIT28.selecao[1]
+selecao[1] => ula1bit:BIT29.selecao[1]
+selecao[1] => ula1bit:BIT30.selecao[1]
+selecao[1] => ula31bit:BIT31.selecao[1]
+z << z.DB_MAX_OUTPUT_PORT_TYPE
+resultado[0] << ula1bit:BIT0.resultado
+resultado[1] << ula1bit:BIT1.resultado
+resultado[2] << ula1bit:BIT2.resultado
+resultado[3] << ula1bit:BIT3.resultado
+resultado[4] << ula1bit:BIT4.resultado
+resultado[5] << ula1bit:BIT5.resultado
+resultado[6] << ula1bit:BIT6.resultado
+resultado[7] << ula1bit:BIT7.resultado
+resultado[8] << ula1bit:BIT8.resultado
+resultado[9] << ula1bit:BIT9.resultado
+resultado[10] << ula1bit:BIT10.resultado
+resultado[11] << ula1bit:BIT11.resultado
+resultado[12] << ula1bit:BIT12.resultado
+resultado[13] << ula1bit:BIT13.resultado
+resultado[14] << ula1bit:BIT14.resultado
+resultado[15] << ula1bit:BIT15.resultado
+resultado[16] << ula1bit:BIT16.resultado
+resultado[17] << ula1bit:BIT17.resultado
+resultado[18] << ula1bit:BIT18.resultado
+resultado[19] << ula1bit:BIT19.resultado
+resultado[20] << ula1bit:BIT20.resultado
+resultado[21] << ula1bit:BIT21.resultado
+resultado[22] << ula1bit:BIT22.resultado
+resultado[23] << ula1bit:BIT23.resultado
+resultado[24] << ula1bit:BIT24.resultado
+resultado[25] << ula1bit:BIT25.resultado
+resultado[26] << ula1bit:BIT26.resultado
+resultado[27] << ula1bit:BIT27.resultado
+resultado[28] << ula1bit:BIT28.resultado
+resultado[29] << ula1bit:BIT29.resultado
+resultado[30] << ula1bit:BIT30.resultado
+resultado[31] << ula31bit:BIT31.resultado
+
+
+|ULAMIPS|ULA1bit:BIT0
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT0|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT0|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT0|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT1
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT1|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT1|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT1|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT2
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT2|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT2|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT2|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT3
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT3|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT3|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT3|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT4
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT4|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT4|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT4|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT5
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT5|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT5|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT5|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT6
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT6|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT6|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT6|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT7
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT7|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT7|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT7|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT8
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT8|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT8|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT8|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT9
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT9|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT9|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT9|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT10
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT10|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT10|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT10|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT11
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT11|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT11|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT11|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT12
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT12|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT12|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT12|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT13
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT13|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT13|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT13|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT14
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT14|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT14|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT14|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT15
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT15|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT15|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT15|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT16
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT16|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT16|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT16|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT17
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT17|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT17|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT17|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT18
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT18|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT18|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT18|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT19
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT19|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT19|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT19|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT20
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT20|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT20|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT20|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT21
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT21|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT21|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT21|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT22
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT22|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT22|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT22|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT23
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT23|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT23|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT23|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT24
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT24|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT24|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT24|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT25
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT25|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT25|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT25|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT26
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT26|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT26|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT26|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT27
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT27|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT27|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT27|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT28
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT28|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT28|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT28|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT29
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT29|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT29|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT29|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT30
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+
+
+|ULAMIPS|ULA1bit:BIT30|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT30|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA1bit:BIT30|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA31bit:BIT31
+a => comb.IN1
+a => comb.IN1
+a => somadorula:somador.a
+b => mux2x1bit:MUX2.entradaA_MUX
+b => mux2x1bit:MUX2.entradaB_MUX
+slt => mux4x1bit:MUX4.entradaD_MUX
+inverteB => mux2x1bit:MUX2.seletor_MUX
+carry_in => Saida_overflow.IN1
+carry_in => somadorula:somador.carry_in
+selecao[0] => mux4x1bit:MUX4.seletor_MUX[0]
+selecao[1] => mux4x1bit:MUX4.seletor_MUX[1]
+resultado <= mux4x1bit:MUX4.saida_MUX
+carry_out <= somadorula:somador.carry_out
+Saida_overflow <= Saida_overflow.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA31bit:BIT31|somadorULA:somador
+a => soma.IN0
+a => carry_out.IN0
+b => soma.IN1
+b => carry_out.IN1
+carry_in => soma.IN1
+carry_in => carry_out.IN1
+soma <= soma.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA31bit:BIT31|mux2x1bit:MUX2
+entradaA_MUX => saida_MUX.DATAA
+entradaB_MUX => saida_MUX.DATAB
+seletor_MUX => saida_MUX.OUTPUTSELECT
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULAMIPS|ULA31bit:BIT31|mux4x1bit:MUX4
+entradaA_MUX => saida_MUX.DATAB
+entradaB_MUX => saida_MUX.DATAB
+entradaC_MUX => saida_MUX.DATAB
+entradaD_MUX => saida_MUX.DATAA
+seletor_MUX[0] => Equal0.IN0
+seletor_MUX[0] => Equal1.IN1
+seletor_MUX[0] => Equal2.IN1
+seletor_MUX[1] => Equal0.IN1
+seletor_MUX[1] => Equal1.IN0
+seletor_MUX[1] => Equal2.IN0
+saida_MUX <= saida_MUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
